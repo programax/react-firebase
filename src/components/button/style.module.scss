@@ -1,0 +1,65 @@
+.regular {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #2196F3;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        background-color: darken(#2196F3, 10%);
+    }
+
+    &.disabled {
+        background-color: #aaa;
+        cursor: inherit;
+    }
+}
+
+.warning {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        background-color: darken(red, 10%);
+    }
+
+    &.disabled {
+        background-color: #aaa;
+        cursor: inherit;
+    }
+}
+
+.outline {
+    padding: 0.5rem 1rem;
+    border: 1px solid #90CAF9;
+    color: #90CAF9;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+        background-color: #90CAF9;
+        color: white;
+    }
+
+    &.disabled {
+        background-color: #aaa;
+        cursor: inherit;
+    }
+}
+
+.inline {
+    display: inline;
+    color: #90CAF9;
+    cursor: pointer;
+    &.disabled {
+        color: #aaa;
+        cursor: inherit;
+    }
+}

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    // flex-direction: column;
+}
+
+.legends {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.xyPlot {
+    position: relative;
+}

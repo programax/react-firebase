@@ -1,0 +1,18 @@
+.formControlRow {
+    padding: .5rem 0;
+}
+
+.formControlBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .5rem 0;
+
+    & > * {
+        margin-right: 1rem;
+
+        &:last-of-type {
+            margin-right: inherit;
+        }
+    }
+}

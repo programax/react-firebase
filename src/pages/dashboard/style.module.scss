@@ -1,0 +1,63 @@
+.buttonFloat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FF1744;
+    color: white;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 1px #969696;
+
+    &:hover {
+        background-color: #D50000;
+    }
+}
+
+.container {
+    padding: 1rem;
+}
+
+.table {
+    width: 100%;
+    background-color: white;
+    padding: 0 0 0 0;
+}
+
+.tableHeader {
+    width: 100%;
+    text-align: left;
+
+    th {
+        border-bottom: 1px solid #777;
+        padding: 1rem 0;
+
+        &:first-of-type {
+            padding-left: 1rem;
+        }
+    }
+}
+
+.tableRow {
+    width: 100%;
+
+    &:hover {
+        background-color: #eee;
+        cursor: pointer;
+    }
+
+    td {
+        border-bottom: 1px solid #777;
+        padding: 1rem 0;
+
+        &:first-of-type {
+            padding-left: 1rem;
+        }
+    }
+}
